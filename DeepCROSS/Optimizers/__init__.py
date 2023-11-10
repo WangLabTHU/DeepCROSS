@@ -1,0 +1,4 @@
+from .GeneticAlgorithm import GeneticAthm
+from .GradientDescent import GradientDescent
+from .GeneticAlgorithm_seperate2spe import GeneticAthm_seperate2spe
+from .GradientDescent_seperate2spe import GradientDescent_seperate2spe
