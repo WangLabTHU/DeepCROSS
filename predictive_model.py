@@ -46,10 +46,19 @@ parser.description='Please enter three parameters sequence file, sequence-activi
 parser.add_argument("-dataset", "--dataset", help="The sequence and activity dataset in npy format ",  type=str)
 
 #Predictive model
-pred= crosspro.Predictors.CNN_crosssignal(train_data='spe3_crosssignal_train70.npy')
-pred.BuildModel(DIM=128)
-print(' [*] Cross signal predictor training begin..')
-pred.Train(weight_dir=predictor_trainop_dir)
-pred.load()
-pred.predict_val_value()
-print(' [*] predictor loaded')  
+spe = 'EC'
+pred_EC= gpro.Predictors.CLS_alone_optpredictor_denselstm() 
+pred_EC.load_dataset(train_data='seq_myMPRAactivity_'+spe+'.npy')
+pred_EC.BuildModel(DIM=128)
+#pred_EC.Train(checkpoint_dir=predictor_trainop_dir,spe=spe)#log_dir=predictor_trainop_dir,checkpoint_dir=predictor_trainop_dir
+pred_EC.load(checkpoint_dir=predictor_trainop_dir,model_name='cls_alone',log_dir = log_dir,spe =spe)#包括画散点图 checkpoint_dir=predictor_trainop_dir
+print(' [*] '+spe+'predictor loaded')  
+
+spe = 'PA'
+pred_PA= gpro.Predictors.CLS_alone_optpredictor_denselstm() 
+pred_PA.load_dataset(train_data='seq_myMPRAactivity_'+spe+'.npy')
+pred_PA.BuildModel(DIM=128)
+#pred_PA.Train(checkpoint_dir=predictor_trainop_dir,spe=spe)#log_dir=predictor_trainop_dir,checkpoint_dir=predictor_trainop_dir
+pred_PA.load(checkpoint_dir=predictor_trainop_dir,model_name='cls_alone',log_dir = log_dir,spe =spe)
+print(' [*] '+spe+'predictor loaded')  
+
