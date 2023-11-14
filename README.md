@@ -8,7 +8,7 @@ research.
 
 # Contents
  
-[1. Introduction](#1)   
+[1. Introduction](#Introduction)   
  
 [2. Environment Setup](#2)  
  
@@ -17,7 +17,7 @@ research.
 [4. License](#4)   
 
 
-<h2 id="#1"> Introduction</h2>
+# Introduction
 DeepCROSS is a generative inverse design tool for cross-species and species-preferred 5' regulatory sequences (RSs) in bacteria. By constructing the meta representation of 1.8 million 5’ RSs from thousands of bacterial genomes, DeepCROSS extracts the fundamental sequence features into a statistical embedding and forms the species-specific subspaces.
 
 ![DeepCROSS](figure1.png)
