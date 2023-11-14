@@ -10,11 +10,11 @@ research.
  
 [1. Introduction](#Introduction)   
  
-[2. Environment Setup](#2)  
+[2. Environment Setup](#Environment Setup)  
  
-[3. Design cross-species regulatory sequences](#3)   
+[3. Design cross-species regulatory sequences](#Design cross-species regulatory sequences)   
 
-[4. License](#4)   
+[4. License](#License)   
 
 
 # Introduction
