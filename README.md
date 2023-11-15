@@ -2,8 +2,10 @@
 
 The code for computational implementation of "Systematic representation and optimization enable the inverse design of cross-species regulatory sequences in bacteria" This codebase provides:
 
-The semi-supervised adversarial autoencoder (AAEs) to generate 5' regulatory sequences when giving conditional expression species signals. (the folder "Generator")
-The predictor that could evaluate promoter activities based on densenet-lstm model. (the folder "Predictor")
+- The semi-supervised adversarial autoencoder (AAEs) to generate 5' regulatory sequences when giving conditional expression species signals. (the folder "Generator")
+- The deep learning model to predict promoter activities based on 5' regulatory sequences. (the folder "Predictor")
+
+- The predictor that could evaluate promoter activities based on densenet-lstm model. (the folder "Predictor")
 The optimizer that could design promoter sequences with high activities in target cross-species or species-preferred situations. (the folder "Optimizer")
 
 # Contents
