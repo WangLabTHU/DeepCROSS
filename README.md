@@ -1,10 +1,10 @@
 # DeepCROSS
 
+The code for computational implementation of "Systematic representation and optimization enable the inverse design of cross-species regulatory sequences in bacteria" This codebase provides:
 
-DeepCROSS is a package built on top of [TensorFlow 1.14](https://www.tensorflow.org/)
-designed to provide simple, composable abstractions for machine learning
-research.
-
+The semi-supervised adversarial autoencoder (AAEs) to generate 5' regulatory sequences when giving conditional expression species signals. (the folder "Generator")
+The predictor that could evaluate promoter activities based on densenet-lstm model. (the folder "Predictor")
+The optimizer that could design promoter sequences with high activities in target cross-species or species-preferred situations. (the folder "Optimizer")
 
 # Contents
  
