@@ -1,6 +1,6 @@
 # DeepCROSS
 
-The code for computational implementation of "Systematic representation and optimization enable the inverse design of cross-species regulatory sequences in bacteria" This codebase provides:
+The code for computational implementation of "Systematic representation and optimization enable the inverse design of cross-species regulatory sequences in bacteria". This codebase provides:
 
 - The semi-supervised adversarial autoencoder (AAEs) to generate 5' regulatory sequences when giving conditional expression species signals. (the folder "Generator")
 - The deep learning model to predict promoter activities based on 5' regulatory sequences. (the folder "Predictor")
