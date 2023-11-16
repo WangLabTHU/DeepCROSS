@@ -55,7 +55,7 @@ DeepCROSS offered a number of built in modules that you can trivially use. For
 example to define a generative model based on AAE we can use the `AAE_semi_maxpooladd_2spe` module to call a default AAE model:
 
 ```python
-gen = crosspro.Generators.AAE_semi_maxpooladd_2spe(log_dir=log_dir,nbin=nbin)
+gen = crosspro.Generators.AAE_semi_maxpooladd_2spe()
 ```
 
 We highly recommend that you put your input files with the same directory of DeepCROSS package, thus you can directly run the generative_model.py to generate candidate sequences: 
