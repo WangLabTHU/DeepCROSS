@@ -5,7 +5,6 @@
 The code for computational implementation of "Systematic representation and optimization enable the inverse design of cross-species regulatory sequences in bacteria". This codebase has been updated to a PyTorch version to facilitate easier implementation, as compared to the previously provided, now-deprecated TensorFlow [version](https://github.com/WangLabTHU/DeepCROSS/tree/tensorflow_old). 
 
 
-
 # Introduction
 
 DeepCROSS is a generative inverse design tool for cross-species and species-preferred 5' regulatory sequences (RSs) in bacteria. By constructing the meta representation of 1.8 million 5’ RSs from thousands of bacterial genomes, DeepCROSS extracts the fundamental sequence features into a statistical embedding and forms the species-specific subspaces.
@@ -80,6 +79,9 @@ Our original codes used absolute paths, which I have manually changed to relativ
 
 Some interval output files, including specific calibration strategies and column information in `final_overlap.csv` under the AAE_supervised folder, may cause confusion. For example, the `EC(2021)` column actually corresponds to the data of `Lib-1`. This is due to historical reasons; we initially designed these sequences in 2021 but updated the MPRA results on February 1, 2024 (`0201`), resulting in two tag information. We have tried our best to minimize these interval details that can easily cause confusion.
 
+The Zenodo repository for DeepCROSS [toolkit](https://doi.org/10.5281/zenodo.14600295) and [dataset](https://doi.org/10.5281/zenodo.14598567) have also been updated.
+
+
 # License
 
 For academic use, this project is licensed under the MIT License (see the LICENSE file for details). For commercial use, please contact the authors.
@@ -87,7 +89,14 @@ For academic use, this project is licensed under the MIT License (see the LICENS
 # Citations
 
 ~~~
-[1] Haochen Wang, Qixiu Du, Ye Wang, Hanwen Xu, Zheng Wei, Xiaowo Wang, GPro: generative AI-empowered toolkit for promoter design, Bioinformatics, Volume 40, Issue 3, March 2024, btae123, https://doi.org/10.1093/bioinformatics/btae123
 
-[2] cblaster: a remote search tool for rapid identification and visualization of homologous gene clusters, Bioinformatics Advances, Volume 1, Issue 1, 2021, vbab016, https://doi.org/10.1093/bioadv/vbab016
+[1] Makhzani, Alireza, et al. "Adversarial autoencoders." arXiv preprint arXiv:1511.05644 (2015).
+
+[2] Wang, Haochen, et al. "GPro: generative AI-empowered toolkit for promoter design." Bioinformatics 40.3 (2024): btae123.
+
+[3] Gilchrist, Cameron LM, et al. "Cblaster: a remote search tool for rapid identification and visualization of homologous gene clusters." Bioinformatics Advances 1.1 (2021): vbab016.
+
+[4] Fahimipour, Ashkaan K., and Thilo Gross. "Mapping the bacterial metabolic niche space." Nature communications 11.1 (2020): 4887.
+
+[5] Johns, Nathan I., et al. "Metagenomic mining of regulatory elements enables programmable species-selective gene expression." Nature methods 15.5 (2018): 323-329.
 ~~~
