@@ -91,12 +91,8 @@ For academic use, this project is licensed under the MIT License (see the LICENS
 ~~~
 
 [1] Makhzani, Alireza, et al. "Adversarial autoencoders." arXiv preprint arXiv:1511.05644 (2015).
-
 [2] Wang, Haochen, et al. "GPro: generative AI-empowered toolkit for promoter design." Bioinformatics 40.3 (2024): btae123.
-
 [3] Gilchrist, Cameron LM, et al. "Cblaster: a remote search tool for rapid identification and visualization of homologous gene clusters." Bioinformatics Advances 1.1 (2021): vbab016.
-
 [4] Fahimipour, Ashkaan K., and Thilo Gross. "Mapping the bacterial metabolic niche space." Nature communications 11.1 (2020): 4887.
-
 [5] Johns, Nathan I., et al. "Metagenomic mining of regulatory elements enables programmable species-selective gene expression." Nature methods 15.5 (2018): 323-329.
 ~~~
