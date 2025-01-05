@@ -74,7 +74,7 @@ The codes in `optimization_final.py` provide the process needed for genetic algo
 
 # Other Information
 
-The necessary verification information for the figures in the main text and supplementaries has been partially provided in the `figs` folder. To ensure the cleanliness of the repository, we have not provided other redundant information, including the large-scale sampling required for Figure 5, DNAshape information, etc. The codes for obtaining these data have been fully provided. You can access further supports through issues or email.
+The necessary verification information for the figures in the main text and supplementaries has been partially provided in the `figs` folder. To ensure the conciseness of the repository, we have not provided other redundant information, including the large-scale sampling required for Figure 5, DNAshape information, etc. The codes for obtaining these data have been fully provided. You can access further supports through issues or email.
 
 Our original codes used absolute paths, which I have manually changed to relative paths. However, there may still be some path errors, and we welcome your feedback.
 
